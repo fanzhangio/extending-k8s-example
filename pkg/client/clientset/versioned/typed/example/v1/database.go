@@ -19,8 +19,8 @@ limitations under the License.
 package v1
 
 import (
-	v1 "github.com/fanzhangio/sample-extending-k8s/pkg/apis/example/v1"
-	scheme "github.com/fanzhangio/sample-extending-k8s/pkg/client/clientset/versioned/scheme"
+	v1 "github.com/fanzhangio/extending-k8s-example/pkg/apis/example/v1"
+	scheme "github.com/fanzhangio/extending-k8s-example/pkg/client/clientset/versioned/scheme"
 	autoscaling_v1 "k8s.io/api/autoscaling/v1"
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"

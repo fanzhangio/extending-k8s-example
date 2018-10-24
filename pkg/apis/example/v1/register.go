@@ -5,7 +5,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	examplecom "github.com/fanzhangio/sample-extending-k8s/pkg/apis/example"
+	examplecom "github.com/fanzhangio/extending-k8s-example/pkg/apis/example"
 )
 
 // SchemeGroupVersion is group version used to register these objects

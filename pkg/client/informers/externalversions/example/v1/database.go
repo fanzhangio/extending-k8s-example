@@ -21,10 +21,10 @@ package v1
 import (
 	time "time"
 
-	examplev1 "github.com/fanzhangio/sample-extending-k8s/pkg/apis/example/v1"
-	versioned "github.com/fanzhangio/sample-extending-k8s/pkg/client/clientset/versioned"
-	internalinterfaces "github.com/fanzhangio/sample-extending-k8s/pkg/client/informers/externalversions/internalinterfaces"
-	v1 "github.com/fanzhangio/sample-extending-k8s/pkg/client/listers/example/v1"
+	examplev1 "github.com/fanzhangio/extending-k8s-example/pkg/apis/example/v1"
+	versioned "github.com/fanzhangio/extending-k8s-example/pkg/client/clientset/versioned"
+	internalinterfaces "github.com/fanzhangio/extending-k8s-example/pkg/client/informers/externalversions/internalinterfaces"
+	v1 "github.com/fanzhangio/extending-k8s-example/pkg/client/listers/example/v1"
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"

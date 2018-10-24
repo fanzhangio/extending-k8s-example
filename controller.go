@@ -22,11 +22,11 @@ import (
 	"k8s.io/client-go/tools/record"
 	"k8s.io/client-go/util/workqueue"
 
-	examplev1 "github.com/fanzhangio/sample-extending-k8s/pkg/apis/example/v1"
-	clientset "github.com/fanzhangio/sample-extending-k8s/pkg/client/clientset/versioned"
-	samplescheme "github.com/fanzhangio/sample-extending-k8s/pkg/client/clientset/versioned/scheme"
-	informers "github.com/fanzhangio/sample-extending-k8s/pkg/client/informers/externalversions"
-	listers "github.com/fanzhangio/sample-extending-k8s/pkg/client/listers/example/v1"
+	examplev1 "github.com/fanzhangio/extending-k8s-example/pkg/apis/example/v1"
+	clientset "github.com/fanzhangio/extending-k8s-example/pkg/client/clientset/versioned"
+	samplescheme "github.com/fanzhangio/extending-k8s-example/pkg/client/clientset/versioned/scheme"
+	informers "github.com/fanzhangio/extending-k8s-example/pkg/client/informers/externalversions"
+	listers "github.com/fanzhangio/extending-k8s-example/pkg/client/listers/example/v1"
 )
 
 const controllerAgentName = "mysql-controller"

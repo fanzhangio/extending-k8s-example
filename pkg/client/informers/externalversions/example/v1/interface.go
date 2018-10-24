@@ -19,7 +19,7 @@ limitations under the License.
 package v1
 
 import (
-	internalinterfaces "github.com/fanzhangio/sample-extending-k8s/pkg/client/informers/externalversions/internalinterfaces"
+	internalinterfaces "github.com/fanzhangio/extending-k8s-example/pkg/client/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to all the informers in this group version.

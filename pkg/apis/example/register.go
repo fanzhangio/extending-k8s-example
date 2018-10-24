@@ -1,5 +1,5 @@
 package examplecom
 
 const (
-	GroupName = "example"
+	GroupName = "example.demo.k8s.io"
 )

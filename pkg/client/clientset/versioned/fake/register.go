@@ -19,7 +19,7 @@ limitations under the License.
 package fake
 
 import (
-	examplev1 "github.com/fanzhangio/sample-extending-k8s/pkg/apis/example/v1"
+	examplev1 "github.com/fanzhangio/extending-k8s-example/pkg/apis/example/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

@@ -19,9 +19,9 @@ limitations under the License.
 package fake
 
 import (
-	clientset "github.com/fanzhangio/sample-extending-k8s/pkg/client/clientset/versioned"
-	examplev1 "github.com/fanzhangio/sample-extending-k8s/pkg/client/clientset/versioned/typed/example/v1"
-	fakeexamplev1 "github.com/fanzhangio/sample-extending-k8s/pkg/client/clientset/versioned/typed/example/v1/fake"
+	clientset "github.com/fanzhangio/extending-k8s-example/pkg/client/clientset/versioned"
+	examplev1 "github.com/fanzhangio/extending-k8s-example/pkg/client/clientset/versioned/typed/example/v1"
+	fakeexamplev1 "github.com/fanzhangio/extending-k8s-example/pkg/client/clientset/versioned/typed/example/v1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

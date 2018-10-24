@@ -23,9 +23,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/fanzhangio/sample-extending-k8s/pkg/client/clientset/versioned"
-	example_com "github.com/fanzhangio/sample-extending-k8s/pkg/client/informers/externalversions/example"
-	internalinterfaces "github.com/fanzhangio/sample-extending-k8s/pkg/client/informers/externalversions/internalinterfaces"
+	versioned "github.com/fanzhangio/extending-k8s-example/pkg/client/clientset/versioned"
+	example "github.com/fanzhangio/extending-k8s-example/pkg/client/informers/externalversions/example"
+	internalinterfaces "github.com/fanzhangio/extending-k8s-example/pkg/client/informers/externalversions/internalinterfaces"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
@@ -123,9 +123,9 @@ type SharedInformerFactory interface {
 	ForResource(resource schema.GroupVersionResource) (GenericInformer, error)
 	WaitForCacheSync(stopCh <-chan struct{}) map[reflect.Type]bool
 
-	Example() example_com.Interface
+	Example() example.Interface
 }
 
-func (f *sharedInformerFactory) Example() example_com.Interface {
-	return example_com.New(f, f.namespace, f.tweakListOptions)
+func (f *sharedInformerFactory) Example() example.Interface {
+	return example.New(f, f.namespace, f.tweakListOptions)
 }

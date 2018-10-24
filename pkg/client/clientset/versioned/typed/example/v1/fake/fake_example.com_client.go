@@ -19,7 +19,7 @@ limitations under the License.
 package fake
 
 import (
-	v1 "github.com/fanzhangio/sample-extending-k8s/pkg/client/clientset/versioned/typed/example/v1"
+	v1 "github.com/fanzhangio/extending-k8s-example/pkg/client/clientset/versioned/typed/example/v1"
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
 )

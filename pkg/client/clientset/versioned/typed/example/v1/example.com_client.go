@@ -19,8 +19,8 @@ limitations under the License.
 package v1
 
 import (
-	v1 "github.com/fanzhangio/sample-extending-k8s/pkg/apis/example/v1"
-	"github.com/fanzhangio/sample-extending-k8s/pkg/client/clientset/versioned/scheme"
+	v1 "github.com/fanzhangio/extending-k8s-example/pkg/apis/example/v1"
+	"github.com/fanzhangio/extending-k8s-example/pkg/client/clientset/versioned/scheme"
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
 	rest "k8s.io/client-go/rest"
 )

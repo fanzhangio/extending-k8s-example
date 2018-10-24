@@ -19,8 +19,8 @@ limitations under the License.
 package example
 
 import (
-	v1 "github.com/fanzhangio/sample-extending-k8s/pkg/client/informers/externalversions/example/v1"
-	internalinterfaces "github.com/fanzhangio/sample-extending-k8s/pkg/client/informers/externalversions/internalinterfaces"
+	v1 "github.com/fanzhangio/extending-k8s-example/pkg/client/informers/externalversions/example/v1"
+	internalinterfaces "github.com/fanzhangio/extending-k8s-example/pkg/client/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.
